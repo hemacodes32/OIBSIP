@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lalam Hema Devi | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- Top scroll progress line -->
+  <div id="topBar"></div>
+
+  <!-- Dot navigation -->
+  <nav class="dot-nav">
+    <button class="dot active" data-sec="0" title="Intro"></button>
+    <button class="dot" data-sec="1" title="About"></button>
+    <button class="dot" data-sec="2" title="Education"></button>
+    <button class="dot" data-sec="3" title="Skills"></button>
+    <button class="dot" data-sec="4" title="Projects"></button>
+    <button class="dot" data-sec="5" title="Certifications"></button>
+    <button class="dot" data-sec="6" title="Contact"></button>
+  </nav>
+
+  <!-- Slide label -->
+  <div class="slide-label" id="slideLabel">Introduction</div>
+
+  <!-- ══ SECTION 0 · INTRO ══ -->
+  <section class="sec sec-intro" id="sec0">
+    <div class="hero-grid-bg"></div>
+    <div class="sec-inner intro-layout">
+      <div class="intro-text">
+        <p class="hero-tag">B.Tech IT Student · Andhra University</p>
+        <h1 class="hero-name">Lalam<br/><span>Hema Devi</span></h1>
+        <p class="hero-sub">Aspiring Software Developer passionate about Java, Web Development and problem solving.</p>
+        <div class="hero-cta">
+          <a href="https://github.com/hemacodes32" target="_blank" class="btn-ghost">View GitHub</a>
+          <a href="#" download class="btn-solid"><i class="fas fa-download"></i> Download Resume</a>
+          <button class="btn-outline" onclick="scrollTo(6)">Get In Touch</button>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><span class="snum">8.54</span><span class="slabel">CGPA</span></div>
+          <div class="sdiv"></div>
+          <div class="stat"><span class="snum">96.8%</span><span class="slabel">Inter</span></div>
+          <div class="sdiv"></div>
+          <div class="stat"><span class="snum">2+</span><span class="slabel">Projects</span></div>
+        </div>
+      </div>
+      <div class="intro-avatar">
+        <div class="avatar-ring"></div>
+        <div class="avatar-blob"></div>
+        <div class="avatar-circle"><span>HemaDevi</span></div>
+        <div class="fbadge b-java"><i class="fab fa-java"></i> Java</div>
+        <div class="fbadge b-py"><i class="fab fa-python"></i> Python</div>
+        <div class="fbadge b-web"><i class="fas fa-code"></i> Web Dev</div>
+      </div>
+    </div>
+    <p class="scroll-hint">Scroll or press ↓ to explore</p>
+  </section>
+
+  <!-- ══ SECTION 1 · ABOUT ══ -->
+  <section class="sec sec-about" id="sec1">
+    <div class="sec-inner">
+      <div class="eyebrow"><span class="enum">02</span> About Me</div>
+      <div class="about-layout">
+        <div class="about-left">
+          <h2 class="sec-heading">A student who<br/><em>loves to build.</em></h2>
+          <p class="body-text">I'm <strong>Lalam Hema Devi</strong>, a B.Tech Information Technology student at <strong>Andhra University College of Engineering for Women</strong> (2024–2028).</p>
+          <p class="body-text">I enjoy turning ideas into real things — whether it's a Java program or a webpage. I'm curious, driven, and always looking to grow.</p>
+          <div class="pills">
+            <span><i class="fas fa-map-marker-alt"></i> Tuni, Andhra Pradesh</span>
+            <span><i class="fas fa-graduation-cap"></i> Batch 2024–28</span>
+            <span><i class="fas fa-heart"></i> Tech &amp; Problem Solving</span>
+          </div>
+        </div>
+        <div class="about-right">
+          <div class="acard">
+            <div class="acard-icon"><i class="fas fa-lightbulb"></i></div>
+            <h3>Curious Learner</h3>
+            <p>Constantly exploring emerging tech, from cloud to DSA.</p>
+          </div>
+          <div class="acard">
+            <div class="acard-icon"><i class="fas fa-rocket"></i></div>
+            <h3>Goal-Oriented</h3>
+            <p>Focused on internships with strong time management skills.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ SECTION 2 · EDUCATION ══ -->
+  <section class="sec sec-edu" id="sec2">
+    <div class="sec-inner">
+      <div class="eyebrow edu-eyebrow">Education</div>
+      <h2 class="sec-heading dark-head">Academic<br/><em>Journey.</em></h2>
+      <div class="edu-grid">
+
+        <div class="edu-card">
+          <div class="edu-pill">2024 – 2028</div>
+          <div class="edu-icon"><i class="fas fa-university"></i></div>
+          <h3>B.Tech – Information Technology</h3>
+          <p class="edu-inst">Andhra University College of Engineering for Women</p>
+          <div class="edu-score-row">
+            <span class="edu-slabel">CGPA</span>
+            <span class="edu-score">8.54</span>
+          </div>
+          <div class="bar-track">
+            <div class="bar-fill" data-pct="85"></div>
+          </div>
+          <p class="edu-tags">Data Structures · DBMS · OS · Web Dev · Algorithms</p>
+        </div>
+
+        <div class="edu-card">
+          <div class="edu-pill">Completed</div>
+          <div class="edu-icon"><i class="fas fa-school"></i></div>
+          <h3>Intermediate (MPC)</h3>
+          <p class="edu-inst">Sri Chaitanya Junior College</p>
+          <div class="edu-score-row">
+            <span class="edu-slabel">Percentage</span>
+            <span class="edu-score">96.8%</span>
+          </div>
+          <div class="bar-track">
+            <div class="bar-fill" data-pct="97"></div>
+          </div>
+          <p class="edu-tags">Mathematics · Physics · Chemistry</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ SECTION 3 · SKILLS ══ -->
+  <section class="sec sec-skills" id="sec3">
+    <div class="sec-inner">
+      <div class="eyebrow">Skills</div>
+      <h2 class="sec-heading">What I<br/><em>Know.</em></h2>
+      <div class="skills-layout">
+
+        <div class="skills-tech">
+          <h3 class="cat-title">Technical</h3>
+
+          <div class="skill-row">
+            <div class="skill-icon"><i class="fab fa-java"></i></div>
+            <div class="skill-body">
+              <div class="skill-top"><span>Java</span><span class="pct-label">80%</span></div>
+              <div class="bar-track dark-track"><div class="bar-fill skill-bar" data-pct="80"></div></div>
+            </div>
+          </div>
+
+          <div class="skill-row">
+            <div class="skill-icon"><i class="fab fa-python"></i></div>
+            <div class="skill-body">
+              <div class="skill-top"><span>Python</span><span class="pct-label">75%</span></div>
+              <div class="bar-track dark-track"><div class="bar-fill skill-bar" data-pct="75"></div></div>
+            </div>
+          </div>
+
+          <div class="skill-row">
+            <div class="skill-icon"><i class="fab fa-html5"></i></div>
+            <div class="skill-body">
+              <div class="skill-top"><span>HTML &amp; CSS</span><span class="pct-label">85%</span></div>
+              <div class="bar-track dark-track"><div class="bar-fill skill-bar" data-pct="85"></div></div>
+            </div>
+          </div>
+
+          <div class="skill-row">
+            <div class="skill-icon"><i class="fab fa-js"></i></div>
+            <div class="skill-body">
+              <div class="skill-top"><span>JavaScript</span><span class="pct-label">70%</span></div>
+              <div class="bar-track dark-track"><div class="bar-fill skill-bar" data-pct="70"></div></div>
+            </div>
+          </div>
+
+          <div class="skill-row">
+            <div class="skill-icon"><i class="fas fa-database"></i></div>
+            <div class="skill-body">
+              <div class="skill-top"><span>SQL &amp; DBMS</span><span class="pct-label">75%</span></div>
+              <div class="bar-track dark-track"><div class="bar-fill skill-bar" data-pct="75"></div></div>
+            </div>
+          </div>
+
+          <div class="skill-row">
+            <div class="skill-icon"><i class="fas fa-sitemap"></i></div>
+            <div class="skill-body">
+              <div class="skill-top"><span>DSA</span><span class="pct-label">72%</span></div>
+              <div class="bar-track dark-track"><div class="bar-fill skill-bar" data-pct="72"></div></div>
+            </div>
+          </div>
+
+          <div class="skill-row">
+            <div class="skill-icon"><i class="fas fa-server"></i></div>
+            <div class="skill-body">
+              <div class="skill-top"><span>Operating Systems</span><span class="pct-label">68%</span></div>
+              <div class="bar-track dark-track"><div class="bar-fill skill-bar" data-pct="68"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-soft">
+          <h3 class="cat-title">Soft Skills</h3>
+          <div class="soft-grid">
+            <div class="soft-chip"><i class="fas fa-comments"></i><span>Communication</span></div>
+            <div class="soft-chip"><i class="fas fa-puzzle-piece"></i><span>Problem-Solving</span></div>
+            <div class="soft-chip"><i class="fas fa-clock"></i><span>Time Management</span></div>
+            <div class="soft-chip"><i class="fas fa-users"></i><span>Teamwork</span></div>
+            <div class="soft-chip"><i class="fas fa-brain"></i><span>Critical Thinking</span></div>
+            <div class="soft-chip"><i class="fas fa-book-open"></i><span>Self-Learning</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ SECTION 4 · PROJECTS ══ -->
+  <section class="sec sec-projects" id="sec4">
+    <div class="sec-inner">
+      <div class="eyebrow">Projects</div>
+      <h2 class="sec-heading">What I've<br/><em>Built.</em></h2>
+      <div class="proj-grid">
+
+        <div class="proj-card">
+          <div class="proj-icon"><i class="fas fa-boxes-stacked"></i></div>
+          <h3>Inventory Management System</h3>
+          <p class="proj-tech"><i class="fab fa-java"></i> Java · OOP · Console App</p>
+          <p class="proj-desc">Console-based stock management app using object-oriented programming. Handles adding, updating, and tracking inventory with structured data management.</p>
+          <div class="proj-tags"><span>Java</span><span>OOP</span><span>CLI</span><span>DSA</span></div>
+        </div>
+
+        <div class="proj-card">
+          <div class="proj-icon"><i class="fas fa-globe"></i></div>
+          <h3>Simple Portfolio Website</h3>
+          <p class="proj-tech"><i class="fab fa-html5"></i> HTML · CSS · Web Design</p>
+          <p class="proj-desc">Personal portfolio website showcasing skills, projects, and achievements with clean layout principles, responsive design, and modern CSS styling techniques.</p>
+          <div class="proj-tags"><span>HTML</span><span>CSS</span><span>Responsive</span><span>UI</span></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ SECTION 5 · CERTIFICATIONS ══ -->
+  <section class="sec sec-certs" id="sec5">
+    <div class="sec-inner">
+      <div class="eyebrow">Certifications</div>
+      <h2 class="sec-heading">Credentials<br/><em>&amp; Learning.</em></h2>
+      <div class="cert-grid">
+
+        <div class="cert-card">
+          <div class="cert-top-row">
+            <div class="cert-icon"><i class="fas fa-cloud"></i></div>
+            <div class="cert-badge"><i class="fas fa-award"></i> Certified</div>
+          </div>
+          <p class="cert-issuer">Infosys Springboard</p>
+          <h3>Introduction to Cloud Computing</h3>
+          <p class="cert-desc">Cloud models, IaaS / PaaS / SaaS, deployment strategies, and foundational cloud architecture concepts.</p>
+          <div class="cert-tags"><span>Cloud</span><span>IaaS</span><span>SaaS</span><span>PaaS</span></div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-top-row">
+            <div class="cert-icon"><i class="fas fa-handshake"></i></div>
+            <div class="cert-badge"><i class="fas fa-award"></i> Certified</div>
+          </div>
+          <p class="cert-issuer">Infosys Springboard</p>
+          <h3>Basics of Business Communication</h3>
+          <p class="cert-desc">Professional written, verbal, and interpersonal communication skills in real business contexts.</p>
+          <div class="cert-tags"><span>Communication</span><span>Professional</span><span>Verbal</span></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ SECTION 6 · CONTACT ══ -->
+  <section class="sec sec-contact" id="sec6">
+    <div class="sec-inner">
+      <div class="eyebrow">Contact</div>
+      <h2 class="sec-heading">Let's<br/><em>Connect.</em></h2>
+      <div class="contact-layout">
+
+        <div class="contact-left">
+          <p class="body-text">I'm actively looking for internship opportunities and exciting collaborations. Let's talk!</p>
+          <div class="contact-links">
+            <a href="mailto:lhemadevi85131@gmail.com" class="clink">
+              <div class="clink-icon"><i class="fas fa-envelope"></i></div>
+              <div><span class="clink-label">Email</span><span class="clink-val">lhemadevi85131@gmail.com</span></div>
+              <i class="fas fa-arrow-right clink-arrow"></i>
+            </a>
+            <a href="tel:+919912836523" class="clink">
+              <div class="clink-icon"><i class="fas fa-phone"></i></div>
+              <div><span class="clink-label">Phone</span><span class="clink-val">+91 9912836523</span></div>
+              <i class="fas fa-arrow-right clink-arrow"></i>
+            </a>
+            <a href="https://linkedin.com/in/lalam-hema-devi" target="_blank" class="clink">
+              <div class="clink-icon"><i class="fab fa-linkedin"></i></div>
+              <div><span class="clink-label">LinkedIn</span><span class="clink-val">Lalam Hema Devi</span></div>
+              <i class="fas fa-arrow-right clink-arrow"></i>
+            </a>
+            <div class="clink no-hover">
+              <div class="clink-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div><span class="clink-label">Location</span><span class="clink-val">Tuni, Andhra Pradesh, India</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-right">
+          <form id="contactForm">
+            <input type="text" placeholder="Your Name" required/>
+            <input type="email" placeholder="Your Email" required/>
+            <input type="text" placeholder="Subject" required/>
+            <textarea rows="4" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn-solid form-btn"><i class="fas fa-paper-plane"></i> Send Message</button>
+          </form>
+        </div>
+
+      </div>
+      <footer class="sec-footer">© 2024 Lalam Hema Devi · B.Tech IT, Andhra University</footer>
+    </div>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+</html>
